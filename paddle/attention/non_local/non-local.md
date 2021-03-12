@@ -23,3 +23,9 @@
 ## embedded Gaussian为例
 
 ![img](https://img-blog.csdnimg.cn/20200105163010813.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0REX1BQX0pK,size_16,color_FFFFFF,t_70)
+
+## 实验对比  使用cifar10数据集   排除别的因素影响 
+
+## 1.resnet18加上一个多的残差模块
+
+## 2.resnet18加上一个NL block

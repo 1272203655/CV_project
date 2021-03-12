@@ -235,6 +235,10 @@ model.prepare(
 model.fit(train_loader, valid_loader, epochs=EPOCH_NUM, log_freq=500, 
     callbacks=paddle.callbacks.VisualDL(log_dir='./log/EmbeddedGaussion'))
 
+""" 查看visualDL方法
+终端输入 !visualDL --logdir ./log --port 8080
+浏览器进入网址   http://127.0.0.1:8080 进行查看
+"""
             
                                 
                                  
