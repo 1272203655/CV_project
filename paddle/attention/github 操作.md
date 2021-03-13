@@ -21,4 +21,11 @@
    3. git pull  更新代码
    4. git push  上传代码
 
+   ## OpenSSL SSL
+   
+
+OpenSSL SSL_connect: Connection was reset in connection to github.com:443
+
+   解决方案：git config --global http.sslVerify false
+
    
