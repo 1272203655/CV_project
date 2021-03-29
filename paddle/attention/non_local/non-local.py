@@ -7,6 +7,7 @@ Created on Thu Mar 11 15:32:35 2021
 数据集 cifar10
 实现non-local 算法  
 """
+
 # In[] 依赖项导入  数据读取  参数设置
 import paddle
 import paddle.nn as nn
@@ -18,6 +19,7 @@ import paddle.vision.transforms as T
 from paddle.vision.datasets import Cifar10
 import warnings 
 warnings.filterwarnings("ignore", category=Warning) # 过滤报警信息
+
 
 BATCH_SIZE = 32
 PIC_SIZE = 96
