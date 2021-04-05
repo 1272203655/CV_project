@@ -15,5 +15,7 @@ labelme==3.16.7 其它版本易出错
 该模块对图片包含的低频信息和高频信息分别处理并结合起来计算更新。在处理低频信息时将低频信息用低维度的张量来表示
 （2）Dcn_conv 可变形卷积  飞浆有专门的API
 ### 一、pytorch 文件夹是使用pytorch框架  pytorch1.20 
-#### 1.EffientDet  复现EffientDet网络 包括数据读取 网络构造 训练
+#### 1.EffientDet  复现EffientDet网络 包括数据读取 网络构造 训练 测试 mAP指标和各种曲线 et. pr_curve mAP_barh 
 effientnet  从三个角度使用NAs搜索网络  输入图像分辨率（更大的输入图像分辨率）  网络宽度（groups） 网络深度(更多的blocks堆叠) 
+#### 1.EffientDet  复现EffientDet网络 包括数据读取 网络构造 训练 测试 mAP指标和各种曲线 et. pr_curve mAP_barh 
+YOLOv3 Darknet53骨干网络 三个尺度的FPN特征融合  物体落在网格中心  网格负责检测这个物体 速度快  单阶段代表网络
